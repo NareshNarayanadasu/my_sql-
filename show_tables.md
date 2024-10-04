@@ -1,4 +1,3 @@
-Here’s how your SQL data and queries can be represented in Markdown format:
 
 ```sql
 -- Table: Department
@@ -67,13 +66,3 @@ SELECT * FROM Location;
 +-------+---------+
 4 rows in set (0.00 sec)
 ```
-
-### Common Error
-
-If you receive errors like:
-
-```
-ERROR 1064 (42000): You have an error in your SQL syntax...
-```
-
-It could be caused by incorrect copying and pasting of commands. Make sure each SQL command is written on its own and without additional prompts or shell outputs from previous commands.

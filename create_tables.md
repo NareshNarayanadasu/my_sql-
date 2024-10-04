@@ -1,8 +1,7 @@
-
-```markdown
 # CREATE TABLE Employee
 
 ```sql
+
 CREATE TABLE Employee( 
     EmpNo INT(3) PRIMARY KEY, 
     EName VARCHAR(35) NOT NULL, 
@@ -13,11 +12,10 @@ CREATE TABLE Employee(
     Commission FLOAT(11,2), 
     DeptNo INT(3) REFERENCES Department(DeptNo)
 );
-```
+
 
 ### Insert into Employee
 
-```sql
 INSERT INTO Employee VALUES (1, 'venkat', 672, NULL, '2006-02-01', 1200000, 10000, 40);
 INSERT INTO Employee VALUES (2, 'Nirmala', 671, 1, '2007-04-02', 800000, 50000, 20);
 INSERT INTO Employee VALUES (3, 'Pradeep', 669, 1, '2005-10-10', 1000000, NULL, 40);
@@ -91,5 +89,4 @@ INSERT INTO Location VALUES (122, 'Chicago');
 INSERT INTO Location VALUES (123, 'Atlanta');
 INSERT INTO Location VALUES (124, 'NewYark');
 INSERT INTO Location VALUES (167, 'Paris');
-```
 ```
